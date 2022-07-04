@@ -1,3 +1,7 @@
+// The editor embed limit is an (artificial) limit in how big a map's embedded items can be in
+// total. Bypassing this is only required when saving the map, loading maps with this is always
+// possible even without the patch applied.
+
 IPatch@ CreateEmbedLimitPatch()
 {
 #if LINUX

@@ -1,3 +1,6 @@
+// Max challenge size is the the maximum filesize that maps will be loaded for and played by a
+// server. This does not impact anything on clients.
+
 IntPtr GetMaxChallengeSizePtr()
 {
 #if TMNEXT

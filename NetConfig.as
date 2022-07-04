@@ -1,3 +1,7 @@
+// NetConfig contains parameters to configure the networking. This is present in both CNetClient and
+// CNetServer, but we currently only care about the client config. This config contains a value for
+// the maximum size of incoming TCP packets.
+
 IntPtr GetNetConfigPtr()
 {
 	auto client = GetApp().Network.Client;
