@@ -1,0 +1,8 @@
+[meta]
+name = "Infinite embed size"
+author = "Miss"
+category = "Patches"
+blocks = [ "Plugin_InfiniteEmbedSize" ]
+
+[script]
+imports = [ "Patch.as" ]
