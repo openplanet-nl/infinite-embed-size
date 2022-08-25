@@ -10,7 +10,7 @@ IPatch@ CreateEmbedLimitPatch()
 	return PatternPatch(
 #if TMNEXT
 		// Next, 64 bit
-		"76 08 C7 00 01 00 00 00 EB 2C",
+		"76 08 C7 00 01 00 00 00 EB 23",
 		"EB"
 #elif MP41
 		// Maniaplanet 4.1, 64 bit
