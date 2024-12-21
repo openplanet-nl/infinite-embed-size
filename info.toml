@@ -1,6 +1,6 @@
 [meta]
 name = "Infinite embed size"
-author = "Miss"
+author = "Openplanet"
 category = "Patches"
 blocks = [ "Plugin_InfiniteEmbedSize" ]
 
